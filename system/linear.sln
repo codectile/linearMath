@@ -1,0 +1,39 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linear", "linear\linear.vcxproj", "{37A40934-7C68-4FDB-8E15-1BA169563BA0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999} = {3C9B0661-CCAD-4C21-A587-FA3153D8B999}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearMath", "..\..\SAPhysics\src\LinearMath\LinearMath.vcxproj", "{3C9B0661-CCAD-4C21-A587-FA3153D8B999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37A40934-7C68-4FDB-8E15-1BA169563BA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37A40934-7C68-4FDB-8E15-1BA169563BA0}.Debug|Win32.Build.0 = Debug|Win32
+		{37A40934-7C68-4FDB-8E15-1BA169563BA0}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{37A40934-7C68-4FDB-8E15-1BA169563BA0}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{37A40934-7C68-4FDB-8E15-1BA169563BA0}.Release|Win32.ActiveCfg = Release|Win32
+		{37A40934-7C68-4FDB-8E15-1BA169563BA0}.Release|Win32.Build.0 = Release|Win32
+		{37A40934-7C68-4FDB-8E15-1BA169563BA0}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{37A40934-7C68-4FDB-8E15-1BA169563BA0}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999}.Debug|Win32.Build.0 = Debug|Win32
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999}.Release|Win32.ActiveCfg = Release|Win32
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999}.Release|Win32.Build.0 = Release|Win32
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{3C9B0661-CCAD-4C21-A587-FA3153D8B999}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
