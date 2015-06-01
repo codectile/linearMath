@@ -1,0 +1,7 @@
+LIBRARY "linear"
+EXPORTS
+	Supports
+	Load
+	Unload
+	AmxLoad
+	AmxUnload
