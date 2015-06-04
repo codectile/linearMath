@@ -19,10 +19,11 @@
 #ifndef LINEAR_H
 #define LINEAR_H
 
-#include "SDK\amx\amx.h"
-#include "SDK\plugincommon.h"
-#include "LinearMath\btVector3.h"
-#include "LinearMath\btQuaternion.h"
+
+#include "SDK/amx/amx.h"
+#include "SDK/plugincommon.h"
+#include <LinearMath/btVector3.h>
+#include <LinearMath/btQuaternion.h>
 
 
 typedef void (*logprintf_t)(char* format, ...);
