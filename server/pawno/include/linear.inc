@@ -23,8 +23,8 @@ native	AddVectors(Float:x1, Float:y1, Float:z1, Float:x2, Float:y2, Float:z2, &F
 native	Float:DotProduct(Float:x1, Float:y1, Float:z1, Float:x2, Float:y2, Float:z2);
 native	CrossProduct(Float:x1, Float:y1, Float:z1, Float:x2, Float:y2, Float:z2, &Float:x, &Float:y, &Float:z);
 native	Float:GetVectorAngle(Float:x1, Float:y1, Float:z1, Float:x2, Float:y2, Float:z2);
-native	Float:GetDistance(Float:x1, Float:y1, Float:z1, Float:x2, Float:y2, Float:z2);
-native	Float:GetMagnitude(Float:x, Float:y, Float:z);
+native	Float:GetDistance(Float:x1, Float:y1, Float:z1, Float:x2, Float:y2, Float:z2, flag = 1); //set flag = 0 for squared result
+native	Float:GetMagnitude(Float:x, Float:y, Float:z, flag = 1); //set flag = 0 for squared result
 native	GetNormalized(Float:x, Float:y, Float:z , &Float:nx, &Float:ny, &Float:nz);
 native	GetClosestAxis(Float:x, Float:y, Float:z);
 native	GetFurthestAxis(Float:x, Float:y, Float:z);
