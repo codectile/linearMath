@@ -35,5 +35,5 @@ native	GetReflectedVector(Float:x, Float:y, Float:z, Float:nx, Float:ny, Float:n
 native	Float:GetQuaternionAngle(Float:x1, Float:y1, Float:z1, Float:w1, Float:x2, Float:y2, Float:z2, Float:w2);
 native	GetAxisOfRotation(Float:x, Float:y, Float:z, Float:w, &Float:x1, &Float:y1, &Float:z1);
 native	Float:DotProductQuaternion(Float:x1, Float:y1, Float:z1, Float:w1, Float:x2, Float:y2, Float:z2, Float:w2);
-native	Float:GetQuaternionMagnitude(Float:x, Float:y, Float:z, Float:w);
+native	Float:GetQuaternionMagnitude(Float:x, Float:y, Float:z, Float:w, flag = 1); //set flag = 0 for squared result
 native	Float:GetInverseQuaternion(Float:x, Float:y, Float:z, Float:w, &Float:ix, &Float:iy, &Float:iz, &Float:iw);
